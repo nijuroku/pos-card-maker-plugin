@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pos-card-maker",
+  "version": "1.0.0",
+  "description": "Crea arte original de fantasía pintado a mano para cartas de Path of Souls.",
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PoS Card Maker",
+        "shortDescription": "Arte pintado 2:3 para cartas de Path of Souls",
+        "longDescription": "Genera ilustraciones originales de fantasía pintadas a mano, en formato vertical 2:3 y sin marco ni texto.",
+        "developerName": "Path of Souls"
+      }
+    }
+  }
+}

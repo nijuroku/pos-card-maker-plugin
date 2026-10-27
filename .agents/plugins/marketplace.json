@@ -1,0 +1,22 @@
+{
+  "name": "pos-card-maker-marketplace",
+  "interface": {
+    "displayName": "PoS Card Maker"
+  },
+  "plugins": [
+    {
+      "name": "pos-card-maker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nijuroku/pos-card-maker-plugin.git",
+        "path": "./plugins/pos-card-maker",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
